@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>RPS Game</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="app.js" defer></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!--Social Symbols-->
+</head>
+<body>
+<header class="heading">
+	Rock-Paper-Scissor Game
+</header>
+<main>
+	<div class="title">
+	<h2><u>SELECT YOUR MOVE:</u></h2>
+	</div>
+	<div class="selections">
+		<b>| Rock<button class="selection" data-selection="rock">&#9994;</button>|
+		Paper<button class="selection" data-selection="paper">&#9995;</button>|
+		Scissor<button class="selection" data-selection="scissor">&#9996;</button>|</b>
+	</div>
+	<hr>
+	<div class="title">
+	<h2><u>SCORE:</u></h2>
+	</div>
+	<div class="result">
+		<div>
+			<b>You</b>
+			<span class="result-score" data-your-score>0</span>
+		</div>
+		<div data-final-column>
+			<b>Computer</b>
+			<span class="result-score" data-computer-score>0</span>
+		</div>
+	</div>
+	<hr>
+	<div class="playAgain">
+	<button onClick="window.location.reload();">Play Again</button>		
+	</div>
+</main>
+<footer>
+		<div class="footer">
+		<a href="https://www.facebook.com/profile.php?id=100009430533610" target="_blank" title="Facebook"><i class="fa fa-facebook-official" style="font-size:36px"></i></a>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    <a href="https://www.instagram.com/kashyapshah09" target="_blank" title="Instagram"><i class="fa fa-instagram" style="font-size:36px"></i></a>
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    <a href="https://github.com/kashyap-shah" target="_blank" title="GitHub"><i class="fa fa-github" style="font-size:36px"></i></a>
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    <a href="https://www.linkedin.com/in/kashyap-shah-635648177" target="_blank" title="LinkedIn"><i class="fa fa-linkedin-square" style="font-size:36px"></i></a>
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    <a href="https://twitter.com/kashyapshah09" target="_blank" title="Twitter"><i class="fa fa-twitter" style="font-size:36px"></i></a><br>
+	    <p><a href="https://github.com/kashyap-shah/rock-paper-scissor" target="_blank">Source Code</a></p>
+	    <a href="https://www.youtube.com/watch?v=1yS-JV4fWqY&list=PLXQSTV33iQmhruXqUxQRB7V2D7YHvMuYM&index=11&t=0s" target="_blank">Reference Video</a>
+		</div>
+	</footer>
+</body>
+</html>
